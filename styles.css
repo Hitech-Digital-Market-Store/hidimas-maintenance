@@ -46,7 +46,32 @@ html {
   font-style: normal;
 }
 
-/* Responsive Design */
+/* Medium Screen Design (768px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wrap-image {
+    padding: 0 30px;
+  }
+
+  .image {
+    width: 550px;
+    height: 500px;
+  }
+
+  .content {
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .content h1 {
+    font-size: 3.5em;
+  }
+
+  .content p {
+    font-size: 1.2em;
+  }
+}
+
+/* Tablet Design (max-width: 768px) */
 @media (max-width: 768px) {
   body,
   html {
@@ -71,6 +96,7 @@ html {
   }
 }
 
+/* Mobile Design (max-width: 480px) */
 @media (max-width: 480px) {
   body,
   html {
